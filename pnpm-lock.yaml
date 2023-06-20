@@ -62,6 +62,7 @@ specifiers:
   file-loader: ^6.2.0
   fork-ts-checker-webpack-plugin: ^7.2.1
   happypack: ^5.0.1
+  hooks-react-using: ^1.1.6
   html-loader: ^3.1.0
   html-webpack-plugin: ^5.5.0
   html2canvas: ^1.4.1
@@ -143,6 +144,7 @@ dependencies:
   clipboard: registry.npmmirror.com/clipboard/2.0.11
   dompurify: registry.npmmirror.com/dompurify/2.4.5
   emojilib: registry.npmmirror.com/emojilib/3.0.10
+  hooks-react-using: registry.npmmirror.com/hooks-react-using/1.1.6_react-dom@18.2.0+react@18.2.0
   html2canvas: registry.npmmirror.com/html2canvas/1.4.1
   i18next: registry.npmmirror.com/i18next/21.10.0
   intro.js: registry.npmmirror.com/intro.js/6.0.0
@@ -441,6 +443,12 @@ packages:
   /@types/json-schema/7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
+
+  /@types/lodash-es/4.17.7:
+    resolution: {integrity: sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==}
+    dependencies:
+      '@types/lodash': 4.14.195
+    dev: false
 
   /@types/lodash.clonedeep/4.5.7:
     resolution: {integrity: sha512-ccNqkPptFIXrpVqUECi60/DFxjNKsfoQxSQsgcBJCX/fuX1wgyQieojkcWH/KpE3xzLoWN/2k+ZeGqIN3paSvw==}
@@ -8570,6 +8578,21 @@ packages:
     dependencies:
       parse-passwd: registry.npmmirror.com/parse-passwd/1.0.0
     dev: true
+
+  registry.npmmirror.com/hooks-react-using/1.1.6_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-q7abC5WPMJzKyoMYLEWYjl95Qv9hjrpE24JiEfP4oB+uI/SN6TK0C0DRpNWufytSitzkLWvgpgv1uVC2JKsAlA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hooks-react-using/-/hooks-react-using-1.1.6.tgz}
+    id: registry.npmmirror.com/hooks-react-using/1.1.6
+    name: hooks-react-using
+    version: 1.1.6
+    peerDependencies:
+      react: ^16.8.0  || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@types/lodash-es': 4.17.7
+      lodash-es: registry.npmmirror.com/lodash-es/4.17.21
+      react: registry.npmmirror.com/react/18.2.0
+      react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
+    dev: false
 
   registry.npmmirror.com/hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz}

@@ -141,6 +141,7 @@
     "clipboard": "^2.0.11",
     "dompurify": "^2.4.0",
     "emojilib": "^3.0.7",
+    "hooks-react-using": "^1.1.6",
     "html2canvas": "^1.4.1",
     "i18next": "^21.8.14",
     "intro.js": "^6.0.0",
