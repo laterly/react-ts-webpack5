@@ -9,7 +9,6 @@ const defaultConfig = {
     extensions: ['.ts', '.tsx', '.jsx', '.json', '.js', '.sass', '.scss'],
   },
   devServer: {
-    noInfo: true,
     historyApiFallback: true,
     compress: true,
     port: 3000,
