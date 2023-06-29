@@ -1,7 +1,6 @@
 module.exports = {
   presets: [['react-app', { flow: false, typescript: true, modules: false }]],
   plugins: [
-    'lodash',
     [
       'import',
       {
