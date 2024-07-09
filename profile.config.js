@@ -29,20 +29,7 @@ module.exports = defineConfig({
   env: {
     ...envConfig,
   },
-  devServer: {
-    historyApiFallback: true,
-    compress: true,
-    port: 3000,
-    hot: true,
-    host: '0.0.0.0',
-    // https: true,
-    client: {
-      overlay: {
-        errors: true,
-        warnings: false,
-      },
-    },
-  },
+  devServer: {},
   //less-laoder配置
   less: {
     lessOptions: {

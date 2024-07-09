@@ -9,9 +9,19 @@ const defaultConfig = {
     extensions: ['.ts', '.tsx', '.jsx', '.json', '.js', '.sass', '.scss'],
   },
   devServer: {
+    historyApiFallback: true,
+    compress: true,
     port: 3000,
     hot: true,
     host: '0.0.0.0',
+    // https: true,
+    client: {
+      logging: 'none',
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
+    },
   },
   env: {},
   lessOptions: {},
