@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import reactLogo from '../../assets/react.svg';
-import './index.scss';
+import './index.less';
 
 const Home: React.FC = () => {
   const [count, setCount] = useState(0);

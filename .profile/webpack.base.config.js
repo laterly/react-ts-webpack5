@@ -24,16 +24,6 @@ module.exports = {
       {
         oneOf: [
           {
-            test: /\.s[ca]ss$/,
-            use: [
-              ...commonCssLoader,
-              {
-                loader: 'sass-loader',
-                options: profile.sass || {},
-              },
-            ],
-          },
-          {
             test: /\.less$/i,
             use: [
               ...commonCssLoader,
